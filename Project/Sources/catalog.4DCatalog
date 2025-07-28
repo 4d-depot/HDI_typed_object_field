@@ -25,7 +25,9 @@
 	</table>
 	<table name="Shapes" uuid="0197CF7B2FB671AE850774E90B615E08" id="2">
 		<field name="ID" uuid="0197CF7B2FBA7031ACCD4114DF64D445" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
-		<field name="data" uuid="0197CF7B366D7A6AB3F6D8C3BFC58DBA" type="21" blob_switch_size="2147483647" never_null="true" id="2" class_id="cs.Shape"/>
+		<field name="data" uuid="0197CF7B366D7A6AB3F6D8C3BFC58DBA" type="21" blob_switch_size="2147483647" never_null="true" id="2">
+			<field_extra class_id="cs.Shape"/>
+		</field>
 		<primary_key field_name="ID" field_uuid="0197CF7B2FBA7031ACCD4114DF64D445"/>
 		<table_extra>
 			<editor_table_info displayable_fields_count="6">
